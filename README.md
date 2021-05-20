@@ -11,7 +11,7 @@ The main goal is creating a the backend environment for implementing the card ga
 #### 1. Docker
 - Images
 - Containers
-- Container-Orchestration (docker-compose)
+- Container-Orchestration (_docker-compose_)
 </br>
 
 #### 2. Database (mySQL)
@@ -45,7 +45,6 @@ Because all of the containers share the services of a single operating system ke
 When virtual machines are used, they spend lots of gigabytes in operational systems, which are fully installed. Another thing is that virtual machines still take too much time in their provisioning and have a limited portability. Working with Docker it is possible to isolate a single application and its dependencies, besides enabling more efficient use of system resources.
 
 ### What is container-orchestration?
-
 The container-orchestration aims to provide a "platform for automating deployment, scaling, and operations of application containers across clusters of hosts".
 
 We will work with Docker Compose, that is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. 
