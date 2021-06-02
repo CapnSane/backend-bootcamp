@@ -20,7 +20,7 @@ _FROM debian:buster_
 
 ### Criar uma imagem
 
-_docker build -t ingate-debian_
+_docker build -t ingate-debian ._
 
 --tag, -t **&#10132;** Nomeia ou adiciona uma _flag_ no formato 'name:tag' 
 
